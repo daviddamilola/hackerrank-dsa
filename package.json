@@ -1,0 +1,27 @@
+{
+  "name": "hackerrank-dsa",
+  "version": "1.0.0",
+  "description": "Data structures and algorithms practice",
+  "main": "daily.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node hof.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddamilola/hackerrank-dsa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviddamilola/hackerrank-dsa/issues"
+  },
+  "homepage": "https://github.com/daviddamilola/hackerrank-dsa#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
