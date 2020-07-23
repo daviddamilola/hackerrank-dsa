@@ -4,7 +4,7 @@
   "description": "Data structures and algorithms practice",
   "main": "daily.js",
   "scripts": {
-    "start": "nodemon --exec babel-node hof.js",
+    "start": "nodemon --exec babel-node hof.excersise.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

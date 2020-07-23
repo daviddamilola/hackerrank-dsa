@@ -5,7 +5,7 @@ import SCRIPTS from './scripts';
 	if found it returns the details of the character
 	else it returns null
  */
-function characterScript(code) {
+export function characterScript(code) {
 	for (let script of SCRIPTS) {
 		if (script.ranges.some(([from, to]) => {
 			return code >= from && code < to;
@@ -16,7 +16,7 @@ function characterScript(code) {
 return null;
 }
 
-function countBy(items, groupName) {
+export function countBy(items, groupName) {
 	let counts = [];
 		for (let item of items) {
 			let name = groupName(item);
