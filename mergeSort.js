@@ -6,6 +6,12 @@
  * - merge in taking one by one from each array such that they are in ascending order.
  * 
  * linearithmic time complexity
+ * how?
+ * T(n) = a T(n/b) + f(n)
+ * 
+ *  a: The number of sub-problems is 2 (line 25). So, a = 2.
+    b: Each of the sub-problems divides n in half. So, b = 2
+    f(n): The work done outside the recursion is the function merge, which has a runtime of O(n) since it visits all the elements on the given arrays.
  */
 
 const mergeSort = (array=[]) => {
